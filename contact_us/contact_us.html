@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>online shop</title>
+        <link rel="stylesheet" href="/navigation/nav_style.css">
+        <link rel="stylesheet" href="/contact_us/contact_us_style.css">
+        <link rel="stylesheet" href="/css/footer_style.css">
+    </head>
+    <body>
+        <header>
+            <!-- ნავიგაცის ბარის html -->
+            <div class="navbar">
+                <div class="logo"><a href="/navigation/nav_bar.html"><img src="/photos2/alma.png" width="250"></a></div>
+                <ul class="links">
+                    <li><a href="#">Categories <i class="fas fa-caret-down"></i></a>
+                    
+                        <div class="dropdown_menu">
+                            <ul>
+                                <li><a href="/main/main.html">Woman</a></li>
+                                <li><a href="/main2/main2.html">men</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="/about_us/about_us.html">About us</a></li>
+                    <li><a href="/contact_us/contact_us.html">Contacts</a></li>
+                    <li><a href="/login/loginpass.html">Login</a></li>
+                    <li><a href="/registration2.html/registration2.html">sing up</a></li>
+                </ul>
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- მისამარტი,ემაილი და ტელეფონის html-->
+
+            <div class="contact_section">
+                <div class="contact_info">
+                    <div class="email"><i class="fa fa-envelope" aria-hidden="true"></i>ElmaShop@gmail.com</div>
+                    <div><i class="fa fa-phone" aria-hidden="true"></i>+995 579 90 67 12   </div>
+                    <div><i class="fa fa-map-marker" aria-hidden="true"></i>Georgia,Tbilisi</div>
+                        
+                </div>
+                    <!-- მესიგის გაგზავნის ჩარჩო -->
+                    <div class="contact_form">
+                        <h2>contact us</h2>
+                        <form class="contact" action="" method="post">
+                            <input type="text" name="name" class="text-box" placeholder="full name*" required>
+                            <input type="email" name="email" class="text-box" placeholder="email*" required>
+                            <textarea name="message" row="5" placeholder="message*" required></textarea>
+                            <input type="submit" name="submit" class="send_btn" value="submit">
+                        </form>
+                    </div >
+            </div>   
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="col-1">
+                    <h3>USEFUL LINKS</h3>
+                    <a href="/about_us/about_us.html">about us</a>
+                    <a href="/contact_us/contact_us.html">contact us</a>
+                    <a href="/navigation/nav_bar.html">home</a>
+                </div>
+                <div class="col-2">
+                    <h3>NEWSLETTER</h3>
+                    <form>
+                      
+                        <input type="email" placeholder="your email adress" required><br>
+                        <button type="submit">SEND</button>
+                      
+                    </form>
+                </div>
+                <div class="col-3">
+                    <h3>LOCATION</h3>
+                    <p>georgia, tbilisi</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
